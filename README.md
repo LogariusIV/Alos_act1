@@ -45,7 +45,25 @@ JG.repeat(1, 100, {
 });
 ```
 After that, we saved the data generated in a [db.json](https://github.com/LogariusIV/Alos_act1/blob/main/db.json).
+
 Next, we start our first service by running the command
 ```
 json-server -watch db.json
 ```
+
+Afterward, we have Adapted the code from Listing 2 according to our theme
+```
+var unirest = require("unirest");
+
+var req = unirest( "GET" , "http://localhost:3000/matches" );
+
+req.headers({
+        "cache-control": "no-cache",
+    })
+    
+req.end(function (res) {
+        if (res.error) throw new Error(res.error)
+        console.log(res.body)
+    })
+```
+And then modified the code to display only the first 10 records (check)[] .
