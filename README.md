@@ -66,6 +66,6 @@ req.end(function (res) {
         console.log(res.body)
     })
 ```
-And then modified the code to display only the first 10 records (check)[https://github.com/LogariusIV/Alos_act1/blob/main/index.js] .
+And then modified the code to display only the first 10 records [check](https://github.com/LogariusIV/Alos_act1/blob/main/index.js).
 
 **Answer for Question 3**: The no-cache response directive indicates that the response can be stored in caches, but the response must be validated with the origin server before each reuse, even when the cache is disconnected from the origin server.
