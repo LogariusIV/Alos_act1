@@ -1,6 +1,6 @@
-### **ALOS project.**
+# **ALOS project.**
 ## Hi this my Football api project.
-# The project is la liga live scores api.
+#### The project is la liga live scores api.
 
 **Pair : Benzidane Mohamed G2 & Belghali Abdallah G1**
 
