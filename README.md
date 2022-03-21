@@ -1,10 +1,12 @@
-###**ALOS project**
-##Hi this my Football api project
-#The project is la liga live scores api
+### **ALOS project.**
+## Hi this my Football api project.
+# The project is la liga live scores api.
+
 **Pair : Benzidane Mohamed G2 & Belghali Abdallah G1**
+
 the first act 1 of the project :
-we generated 100 records using the code in listing 1 after of course modifying it to match our theme
-here's our code that we use in [JSON Generator](https://next.json-generator.com/)
+we generated 100 records using the code in listing 1 after of course modifying it to match our theme.
+Here's our code that we use in [JSON Generator](https://next.json-generator.com/)
 ```
 JG.repeat(1, 100, {
   id: JG.objectId(),
@@ -42,8 +44,8 @@ JG.repeat(1, 100, {
 
 });
 ```
-After that, we saved the data generated in a [db.json](https://github.com/LogariusIV/Alos_act1/blob/main/db.json)
-Next, we start our first service by running the following command in terminal
+After that, we saved the data generated in a [db.json](https://github.com/LogariusIV/Alos_act1/blob/main/db.json).
+Next, we start our first service by running the command
 ```
 json-server -watch db.json
 ```
